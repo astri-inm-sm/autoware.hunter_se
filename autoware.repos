@@ -41,7 +41,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: main
+    version: fec9d4240bdf64cbe2224dfd48bf473781cd2305
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -133,6 +133,18 @@ repositories:
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
+    version: main
+  vehicle/external/agilex_hunter_ros2/hunter_ros2:
+    type: git
+    url: https://github.com/agilexrobotics/hunter_ros2.git
+    version: master
+  vehicle/external/agilex_hunter_ros2/ugv_sdk:
+    type: git
+    url: https://github.com/agilexrobotics/ugv_sdk.git
+    version: main
+  vehicle/external/hunter_se_vehicle_interface:
+    type: git
+    url: git@github.com:astri-inm-sm/hunter_se_vehicle_interface.git
     version: main
   # param
   param/hunter_se_individual_params:
