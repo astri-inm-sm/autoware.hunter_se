@@ -112,6 +112,10 @@ repositories:
     type: git
     url: git@github.com:astri-inm-sm/hunter_se_sensor_component_description.git
     version: main
+  sensor_component/external/livox_ros_driver2:
+    type: git
+    url: git@github.com:astri-inm-sm/livox_ros_driver2.git
+    version: master
   # sensor_kit
   sensor_kit/hunter_se_sensor_kit_launch:
     type: git
